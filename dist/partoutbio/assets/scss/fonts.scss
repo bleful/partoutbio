@@ -1,0 +1,36 @@
+@import './variables.scss';
+
+// Bodoni
+
+@font-face {
+  font-family: 'Bodoni';
+  font-style: normal;
+  src: url('src/assets/fonts/bodoni/bodoni-mt.ttf') format('truetype');
+}
+
+
+// Rubik
+
+@font-face {
+  font-family: 'Rubik medium';
+  font-style: medium;
+  src: url('src/assets/fonts/Rubik/Rubik-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Rubik light';
+  font-style: light;
+  src: url('src/assets/fonts/Rubik/Rubik-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Rubik bold';
+  font-style: bold;
+  src: url('src/assets/fonts/Rubik/Rubik-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Rubik regular';
+  font-style: regular;
+  src: url('src/assets/fonts/Rubik/Rubik-Regular.ttf') format('truetype');
+}
