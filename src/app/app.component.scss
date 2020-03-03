@@ -8,5 +8,17 @@
 }
 
 .navbar-inverse {
+    opacity: 0%;
+    animation-name: fadein;
+    animation-duration: 350ms;
+}
 
+@keyframes fadein {
+    from {
+        opacity: 100%;
+    }
+
+    to {
+        opacity: 0%;
+    }
 }
