@@ -3,15 +3,13 @@
 
 .navbar {
     position: fixed;
-    background-color: $navbar-transparent;
+    background-color: $navbar;
     width: 100%;
     height: 92px;
-    z-index: 9999;
 }
 
 .navbar-inverse {
     top: -92px;
-    background-color: $navbar;
     animation-name: fadein;
     animation-duration: 800ms;
 }
@@ -28,7 +26,6 @@
 
 .navbar-outverse {
     top: 0px;
-    background-color: $navbar;
     animation-name: fadeout;
     animation-duration: 800ms;
 }
