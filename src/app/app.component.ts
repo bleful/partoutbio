@@ -11,7 +11,7 @@ export class AppComponent {
   lastnumber: any;
 
   constructor() {
-    this.lastnumber = 0;
+    this.lastnumber = window.pageYOffset;
   }
 
   @HostListener('window:scroll', ['$event'])
@@ -19,12 +19,18 @@ export class AppComponent {
   onWindowScroll(e) {
     let element = document.querySelector('.navbar');
 
-    // console.log(element.);
-
     if (this.lastnumber < window.pageYOffset) {
       element.classList.add('navbar-inverse');
+      element.classList.remove('navbar-outverse');
     } else {
+      element.classList.add('navbar-outverse');
       element.classList.remove('navbar-inverse');
+    }
+
+    if (window.pageYOffset === 0) {
+      element.classList.add('navbar-transparent');
+    } else {
+      element.classList.remove('navbar-transparent');
     }
 
     this.lastnumber = window.pageYOffset;

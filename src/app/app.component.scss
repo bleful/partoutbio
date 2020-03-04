@@ -3,22 +3,55 @@
 
 .navbar {
     position: fixed;
-    background-color: forestgreen;
+    background-color: $navbar;
     width: 100%;
+    height: 92px;
 }
 
 .navbar-inverse {
-    opacity: 0%;
+    top: -92px;
     animation-name: fadein;
-    animation-duration: 350ms;
+    animation-duration: 800ms;
 }
 
 @keyframes fadein {
     from {
-        opacity: 100%;
+        top: 0;
     }
 
     to {
-        opacity: 0%;
+        top: -92px;
+    }
+}
+
+.navbar-outverse {
+    top: 0px;
+    animation-name: fadeout;
+    animation-duration: 800ms;
+}
+
+@keyframes fadeout {
+    from {
+        top: -92px;
+    }
+
+    to {
+        top: 0px;
+    }
+}
+
+.navbar-transparent {
+    background-color: $navbar-transparent;
+    animation-name: transparent;
+    animation-duration: 800ms;
+}
+
+@keyframes transparent {
+    from {
+        background-color: $navbar;
+    }
+
+    to {
+        background-color: $navbar-transparent;
     }
 }
