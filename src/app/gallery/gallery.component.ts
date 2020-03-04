@@ -79,25 +79,27 @@ export class GalleryComponent implements AfterViewInit {
 
   openPopper(e: Event) {
 
+    /*
+
     this.stopPropagation(e);
 
     if (!this.popRef.isOpen) {
-
       this.popRef.open();
-
       // enables zooming
       this.swiperInstance.zoom.enable();
     }
+    */
   }
 
   closePopper(e: Event) {
+    /*
     if (this.popRef.isOpen) {
       this.popRef.close();
-
       // disables zooming
       this.swiperInstance.zoom.out();
       this.swiperInstance.zoom.disable();
     }
+    */
   }
 
   stopPropagation(e: Event) {
