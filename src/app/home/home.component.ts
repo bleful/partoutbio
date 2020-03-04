@@ -7,6 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
+  slides = [
+    'https://via.placeholder.com/800x450/FF5733/ffffff',
+    'https://via.placeholder.com/800x450/C70039/ffffff',
+    'https://via.placeholder.com/800x450/900C3F/ffffff'
+  ];
+
   constructor() { }
 
   ngOnInit() {

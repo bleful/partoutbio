@@ -1,0 +1,13 @@
+<div #popperRef class="popper">
+
+    <div class="backdrop" (click)="close()"></div>
+  
+      <div class="buttons-container">
+          <button type="button" (click)="close()">X</button>
+      </div>
+  
+      <div #popRef class="content-container">
+      <ng-content></ng-content>
+      </div>
+  
+  </div>

@@ -1,0 +1,35 @@
+.popper {
+
+    &.open,
+    .content-container,
+    .backdrop {
+        width: 100%;
+        height: 100%;
+    }
+
+    .buttons-container {
+        display: none;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: auto;
+        z-index: 2;
+    }
+    
+    &.open {
+      .content-container,
+    .backdrop {
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+
+    .backdrop {
+        background-color: rgba(0,0,0,.5);
+    }
+        .buttons-container {
+            display: block;
+        }
+    }
+}
+

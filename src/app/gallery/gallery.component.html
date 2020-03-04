@@ -1,0 +1,40 @@
+<div style="background:#ff0">
+
+    <app-ngx-popper #popRef>
+
+        <!-- Slider main container -->
+        <div class="swiper-container">
+
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"
+                     *ngFor="let item of slides"
+                     (click)="closePopper($event)">
+                    <div class="swiper-zoom-container">
+                        <img (click)="openPopper($event)"
+                             [src]="item"
+                             alt="">
+                    </div>
+                </div>
+            </div>
+
+            <!-- If we need pagination -->
+            <div [hidden]="!swiperOptions.pagination"
+                 class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div [hidden]="!swiperOptions.navigation"
+                 class="swiper-button-prev"
+                 (click)="stopPropagation($event)"></div>
+            <div [hidden]="!swiperOptions.navigation"
+                 class="swiper-button-next"
+                 (click)="stopPropagation($event)"></div>
+
+            <!-- If we need scrollbar -->
+            <div [hidden]="!swiperOptions.scrollbar"
+                 class="swiper-scrollbar"></div>
+        </div>
+
+    </app-ngx-popper>
+
+</div>
