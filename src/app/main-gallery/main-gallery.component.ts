@@ -11,9 +11,7 @@ export class MainGalleryComponent implements OnInit {
 
   swiperInstance: Swiper;
   swiperOptions: SwiperOptions = {
-    pagination: {},
-    navigation: {},
-    scrollbar: {}
+    navigation: {}
   };
 
   config: any = {

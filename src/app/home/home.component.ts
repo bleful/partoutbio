@@ -13,9 +13,7 @@ export class HomeComponent implements OnInit {
 
   swiperInstance: Swiper;
   swiperOptions: SwiperOptions = {
-    pagination: {},
-    navigation: {},
-    scrollbar: {}
+    navigation: {}
   };
 
   configMain: any = {
