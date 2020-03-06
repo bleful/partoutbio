@@ -8,13 +8,15 @@ import { ComingsoonComponent } from './comingsoon/comingsoon.component';
 import { NgxUsefulSwiperModule } from 'ngx-useful-swiper';
 import { LottieAnimationViewModule } from 'ng-lottie';
 import { MainGalleryComponent } from './main-gallery/main-gallery.component';
+import { ShowCaseGalleryComponent } from './show-case-gallery/show-case-gallery.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     ComingsoonComponent,
-    MainGalleryComponent
+    MainGalleryComponent,
+    ShowCaseGalleryComponent
   ],
   imports: [
     BrowserModule,

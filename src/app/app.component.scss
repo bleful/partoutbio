@@ -1,6 +1,29 @@
 @import '../assets/scss/variables.scss';
 @import '../assets/scss/fonts.scss';
 
+::ng-deep .swiper-pagination-bullet-active {
+    opacity: 1;
+    background: $main-green!important;
+    transform: scale(2);
+    margin-left: 15px!important;
+    margin-right: 15px!important;
+}
+
+::ng-deep.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {  
+    margin: 10px;  
+} 
+
+.swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+    display: inline-block;
+    border-radius: 100%;
+    background: #ffffff;
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
 .navbar {
     position: fixed;
     background-color: $navbar-transparent;
