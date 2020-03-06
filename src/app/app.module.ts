@@ -6,17 +6,21 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { ComingsoonComponent } from './comingsoon/comingsoon.component';
 import { NgxUsefulSwiperModule } from 'ngx-useful-swiper';
+import { LottieAnimationViewModule } from 'ng-lottie';
+import { MainGalleryComponent } from './main-gallery/main-gallery.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    ComingsoonComponent
+    ComingsoonComponent,
+    MainGalleryComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgxUsefulSwiperModule
+    NgxUsefulSwiperModule,
+    LottieAnimationViewModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

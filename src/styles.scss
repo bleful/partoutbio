@@ -7,6 +7,7 @@ body {
     margin: 0;
     font-family: 'Rubik regular';
     font-size: 16px;
+    line-height: 1.8;
     color: $text-color-pos;
     -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape while allowing user zoom */
 
@@ -37,4 +38,28 @@ body {
     ul {
         list-style: none;
     }
+}
+
+.flex {
+    display: flex;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.box {
+    padding: 0 15px;
+    max-width: 50%;
+}
+
+.padding-big {
+    padding-top: 213px;
+    padding-bottom: 130px;
+}
+
+.padding-smal {
+    padding-top: 114px;
+    padding-bottom: 117px;
 }

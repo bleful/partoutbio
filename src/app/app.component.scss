@@ -7,6 +7,39 @@
     width: 100%;
     height: 92px;
     z-index: 9999;
+    transition: all 0.3s ease-in-out;
+
+    ul {
+        display: flex;
+        width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+
+        li {
+            padding: 34px 0 19px;
+            margin: 0 15px;
+            color: #ffffff;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+
+            hr {
+                opacity: 0;
+                width: 0%;
+                margin-block-start: 0!important;
+                margin-block-end: 0!important;
+                transition: all 0.3s ease-in-out;
+            }
+        }
+
+        li:hover {
+            color: $main-green;
+
+            hr {
+                opacity: .7;
+                width: 100%;
+            }
+        }
+    }
 }
 
 .navbar-inverse {

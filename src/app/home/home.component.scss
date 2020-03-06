@@ -1,11 +1,52 @@
 @import '../app.component.scss';
 @import '../../assets/scss/variables.scss';
 @import '../../assets/scss/fonts.scss';
-@import "https://unpkg.com/swiper/css/swiper.min.css";
+@import '../../assets/scss/swiper.min.css';
 
-swiper{
-    height: 100vh;
+
+swiper {
+    height: 92vh;
     width: 100%;
+    overflow: hidden;
+}
+
+::ng-deep .swiper-pagination-bullet-active {
+    opacity: 1;
+    background: $main-green!important;
+    transform: scale(2);
+    margin-top: 15px!important;
+    margin-bottom: 15px!important;
+}
+
+::ng-deep.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {  
+    margin: 10px;  
+} 
+
+::ng-deep.swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+    display: inline-block;
+    border-radius: 100%;
+    background: #ffffff;
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+}
+
+::ng-deep.swiper-pagination-bullet {  
+    display:block;  
+    cursor: pointer;
+}
+
+::ng-deep.swiper-container-horizontal > .swiper-pagination-bullets {
+    right: 25px!important;
+}
+
+::ng-deep.swiper-container-horizontal>.swiper-pagination-bullets { 
+    width: initial;  
+    top: 34%;  
+    right: 0;  
+    bottom: inherit;  
+    left: inherit;
 }
 
 .gallery-container,
@@ -15,9 +56,8 @@ swiper{
 }
 
 .swiper-slide {
-    text-align: center;
-    font-size: 18px;
     display: flex;
+    background-size: cover;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     -webkit-justify-content: center;
@@ -26,8 +66,33 @@ swiper{
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
+
+    .center {
+        margin-left: auto;
+        margin-right: auto;
+
+        h1 {
+
+        }
+
+        h2 {
+
+        }
+    }
 }
 
 .swiper-slide img {
-  max-width: 100%; 
+    max-width: 100%;
+}
+
+.first-img {
+    background-image: url("../../assets/img/bilder/1.jpeg");
+}
+
+.second-img {
+    background-image: url("../../assets/img/bilder/2.jpeg");
+}
+
+.theerd-img {
+    background-image: url("../../assets/img/bilder/3.jpeg");
 }

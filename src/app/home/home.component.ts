@@ -8,6 +8,9 @@ import { Swiper, SwiperOptions, Navigation, Pagination, Scrollbar } from 'swiper
 })
 export class HomeComponent implements OnInit {
 
+  public lottieConfig: Object;
+  private anim: any;
+
   swiperInstance: Swiper;
   swiperOptions: SwiperOptions = {
     pagination: {},
@@ -15,14 +18,14 @@ export class HomeComponent implements OnInit {
     scrollbar: {}
   };
 
- config: any = {
+  config: any = {
     observer: true,
     observeParents: true,
 
     // prevents slide to zoom-in when clicking the navigation arrows
     touchEventsTarget: 'wrapper',
-
     loop: true,
+    speed: 1000,
 
     // pagination: {
     //   el: '.swiper-pagination',
@@ -33,8 +36,9 @@ export class HomeComponent implements OnInit {
     pagination: {
       el: '.swiper-pagination',
       clickable: true,
-      },
-      paginationClickable: true,
+    },
+
+    paginationClickable: true,
 
     navigation: {
       nextEl: '.swiper-button-next',
@@ -43,17 +47,49 @@ export class HomeComponent implements OnInit {
 
     autoplay: {
       delay: 3000,
-      disableOnInteraction: false,
+      disableOnInteraction: true,
     },
 
     zoom: {
       toggle: true
     },
-};
+  };
 
-  constructor() { }
+  constructor() {
+    this.lottieConfig = {
+      path: 'assets/fire.json',
+      renderer: 'canvas',
+      autoplay: true,
+      loop: true
+    };
+  }
 
   ngOnInit() {
   }
+
+  handleAnimation(anim: any) {
+    this.anim = anim;
+  }
+
+  /*
+
+  stop() {
+    this.anim.stop();
+  }
+
+  play() {
+    this.anim.play();
+  }
+
+  pause() {
+    this.anim.pause();
+  }
+
+  setSpeed(speed: number) {
+    this.animationSpeed = speed;
+    this.anim.setSpeed(speed);
+  }
+
+  */
 
 }
