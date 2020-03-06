@@ -18,7 +18,7 @@ export class HomeComponent implements OnInit {
     scrollbar: {}
   };
 
-  config: any = {
+  configMain: any = {
     observer: true,
     observeParents: true,
 
@@ -53,6 +53,31 @@ export class HomeComponent implements OnInit {
     zoom: {
       toggle: true
     },
+  };
+
+  configSelect: any = {
+    observer: true,
+    observeParents: true,
+
+    // prevents slide to zoom-in when clicking the navigation arrows
+    touchEventsTarget: 'wrapper',
+    loop: true,
+    slidesPerView: 3,
+    spaceBetween: 30,
+
+    // pagination: {
+    //   el: '.swiper-pagination',
+    //   // type: 'bullets',
+    //   clickable: true,
+    // },
+
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+
+    paginationClickable: true,
+
   };
 
   constructor() {

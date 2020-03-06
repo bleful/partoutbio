@@ -14,8 +14,8 @@ swiper {
     opacity: 1;
     background: $main-green!important;
     transform: scale(2);
-    margin-top: 15px!important;
-    margin-bottom: 15px!important;
+    margin-left: 15px!important;
+    margin-right: 15px!important;
 }
 
 ::ng-deep.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {  
@@ -30,24 +30,14 @@ swiper {
     background: #ffffff;
     opacity: 1;
     transition: all 0.3s ease-in-out;
-}
-
-::ng-deep.swiper-pagination-bullet {  
-    display:block;  
     cursor: pointer;
 }
 
-::ng-deep.swiper-container-horizontal > .swiper-pagination-bullets {
-    right: 25px!important;
+::ng-deep.swiper-pagination {
+    position: relative!important;
+    margin-top: -200px;
 }
 
-::ng-deep.swiper-container-horizontal>.swiper-pagination-bullets { 
-    width: initial;  
-    top: 34%;  
-    right: 0;  
-    bottom: inherit;  
-    left: inherit;
-}
 
 .gallery-container,
 .swiper-container {
