@@ -39,6 +39,20 @@ body {
     ul {
         list-style: none;
     }
+
+    h1 {
+        font-family: 'Bodoni';
+        font-size: 50px;
+        line-height: 1.2;
+        margin-top: 0;
+    }
+
+    h2 {
+        font-family: 'AlexBrush';
+        font-size: 40px;
+        margin: 0;
+        color: $acsent-color;
+    }
 }
 
 .flex {
@@ -77,4 +91,17 @@ body {
 
 .text-center {
     text-align: center;
+}
+
+.parallax {
+    /* The image used */
+  
+    /* Set a specific height */
+    height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

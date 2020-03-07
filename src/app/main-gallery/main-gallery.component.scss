@@ -10,7 +10,7 @@ swiper {
 }
 
 .swiper-pagination {
-    position: relative!important;
+    position: relative !important;
     margin-top: -100px;
 }
 
@@ -38,11 +38,13 @@ swiper {
         margin-right: auto;
 
         h1 {
-
+            font-size: 80px;
+            color: #ffffff;
         }
 
         h2 {
-
+            font-size: 45px;
+            text-align: center;
         }
     }
 }

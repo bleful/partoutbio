@@ -1,3 +1,40 @@
 @import '../app.component.scss';
 @import '../../assets/scss/variables.scss';
 @import '../../assets/scss/fonts.scss';
+
+.parallax-img {
+    background-image: url("../../assets/img/bilder/1.jpeg");
+    height: 600px;
+
+    .wrapp {
+        padding-top: 220px;
+        padding-bottom: 200px;
+
+        .margin-left {
+            margin-left: 10%;
+
+            h1 {
+                color: #ffffff;
+                font-size: 80px;
+                margin-bottom: 0;
+            }
+
+            h2 {
+
+            }
+        }
+    }
+}
+
+.right-img {
+
+    img {
+        margin-left: 100%;
+        margin-top: 50%;
+        width: 200%;
+      }
+
+      .img-higer {
+          top:-20px;
+      }
+}
