@@ -10,6 +10,8 @@ export class AppComponent {
   title = 'partoutbio';
   lastnumber: any;
 
+  hidden = true;
+
   constructor() {
     this.lastnumber = window.pageYOffset;
   }
@@ -34,5 +36,9 @@ export class AppComponent {
     }
 
     this.lastnumber = window.pageYOffset;
+  }
+
+  toggle() {
+    this.hidden = !this.hidden;
   }
 }

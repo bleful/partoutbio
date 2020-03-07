@@ -1,25 +1,27 @@
 <nav class="navbar"
      (scroll)="onWindowScroll($event);">
-    <ul *ngIf="false">
+    <ul *ngIf="!hidden">
         <li>
-            <p>Home</p>
+            <p (click)="toggle()">Home</p>
             <hr>
         </li>
         <li>
-            <p>Contact</p>
+            <p (click)="toggle()">Contact</p>
             <hr>
         </li>
         <li>
-            <p>Team</p>
+            <p (click)="toggle()">Team</p>
             <hr>
         </li>
         <li>
-            <p>Info</p>
+            <p (click)="toggle()">Info</p>
             <hr>
         </li>
     </ul>
 
-    <i class="fa fa-bars"></i>
+    <i class="fa fa-bars" 
+        (click)="toggle()"
+        *ngIf="hidden"></i>
 </nav>
 
 
