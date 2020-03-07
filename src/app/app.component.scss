@@ -33,6 +33,12 @@
     z-index: 9999;
     transition: all 0.3s ease-in-out;
 
+    i {
+        color: #ffffff;
+        font-size: 50px;
+        margin-left: 10%;
+    }
+
     ul {
         display: flex;
         width: 350px;
