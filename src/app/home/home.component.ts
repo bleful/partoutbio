@@ -1,5 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import Parallax from 'parallax-js';
+import { google } from "google-maps";
 
 declare var Parallax: any;
 
@@ -9,6 +10,9 @@ declare var Parallax: any;
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
+
+  @ViewChild('gmap', null) gmapElement: any;
+  map: google.maps.Map;
 
   public lottieConfig: Object;
   private anim: any;
@@ -34,6 +38,12 @@ export class HomeComponent implements OnInit {
   }
 
   ngOnInit() {
+    var mapProp = {
+      center: new google.maps.LatLng(18.5793, 73.8143),
+      zoom: 15,
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
+    this.map = new google.maps.Map(this.gmapElement.nativeElement, mapProp);
   }
 
   handleAnimation(anim: any) {

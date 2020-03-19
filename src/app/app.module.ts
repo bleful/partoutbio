@@ -9,6 +9,14 @@ import { NgxUsefulSwiperModule } from 'ngx-useful-swiper';
 import { LottieAnimationViewModule } from 'ng-lottie';
 import { MainGalleryComponent } from './main-gallery/main-gallery.component';
 import { ShowCaseGalleryComponent } from './show-case-gallery/show-case-gallery.component';
+import { ImpressumComponent } from './impressum/impressum.component';
+import { RouterModule, Routes } from '@angular/router';
+
+const routes: Routes = [
+  { path: '**', component: HomeComponent },
+  { path: 'home', component: HomeComponent },
+  { path: 'impressum', component: ImpressumComponent }
+];
 
 @NgModule({
   declarations: [
@@ -16,12 +24,14 @@ import { ShowCaseGalleryComponent } from './show-case-gallery/show-case-gallery.
     HomeComponent,
     ComingsoonComponent,
     MainGalleryComponent,
-    ShowCaseGalleryComponent
+    ShowCaseGalleryComponent,
+    ImpressumComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgxUsefulSwiperModule,
+    RouterModule.forRoot(routes),
     LottieAnimationViewModule.forRoot()
   ],
   providers: [],

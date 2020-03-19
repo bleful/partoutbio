@@ -40,40 +40,44 @@
 .contact-container {
     width: 80%;
 
-    .contact-element {
-        margin-left: auto;
-        margin-right: auto;
+    .flex-box {
+        display: flex;
+        width: 50%;
 
-        .icon-container {
-            border-style: dotted;
-            border-radius: 50px;
-            border-color: rgba(97, 141, 47, 0.8);
-            ;
-            padding: 20px;
-            width: 79px;
-            height: 78px;
-            text-align: center;
-            box-shadow: 0px 0px 20px rgba(58, 67, 77, 0.4);
-            transition: all 0.3s ease-in-out;
+        .contact-element {
+            margin-left: auto;
+            margin-right: auto;
 
-            i {
-                color: $main-green;
-                font-size: 34px;
-                margin-top: 0px;
-                transition: all 0.3s ease-out;
+            .icon-container {
+                border-style: dotted;
+                border-radius: 50px;
+                border-color: rgba(97, 141, 47, 0.8);
+                padding: 20px;
+                width: 79px;
+                height: 78px;
+                text-align: center;
+                box-shadow: 0px 0px 20px rgba(58, 67, 77, 0.4);
+                transition: all 0.3s ease-in-out;
+
+                i {
+                    color: $main-green;
+                    font-size: 34px;
+                    margin-top: 0px;
+                    transition: all 0.3s ease-out;
+                }
             }
-        }
 
-        .icon-container:hover {
-            border-color: #ffffff;
-            background-color: $main-green;
-            box-shadow: 0px 0px 30px rgba(58, 67, 77, 0.6);
+            .icon-container:hover {
+                border-color: #ffffff;
+                background-color: $main-green;
+                box-shadow: 0px 0px 30px rgba(58, 67, 77, 0.6);
 
-            i {
-                color: #ffffff;
+                i {
+                    color: #ffffff;
+                }
             }
-        }
 
+        }
     }
 }
 
@@ -95,6 +99,34 @@
     #scene {
         overflow: hidden;
         visibility: hidden;
+    }
+
+}
+
+@media only screen and (max-width: 830px) {
+
+    .contact-container {
+        width: 80%;
+
+        .flex {
+            display: unset;
+            width: 80%;
+
+            .flex-box {
+                display: -webkit-inline-box;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 80px;
+                width: 100%;
+
+                .contact-element {
+                    margin-left: auto;
+                    margin-right: auto;
+
+                    .icon-container {}
+                }
+            }
+        }
     }
 
 }

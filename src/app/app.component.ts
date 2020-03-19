@@ -1,4 +1,5 @@
 import { Component, HostListener } from '@angular/core';
+import { Router } from '@angular/router';
 
 
 @Component({
@@ -12,7 +13,7 @@ export class AppComponent {
 
   hidden = true;
 
-  constructor() {
+  constructor(private router: Router) {
     this.lastnumber = window.pageYOffset;
   }
 
@@ -31,6 +32,7 @@ export class AppComponent {
 
     if (window.pageYOffset === 0) {
       element.classList.add('navbar-transparent');
+      element.classList.remove('navbar-outverse');
     } else {
       element.classList.remove('navbar-transparent');
     }
@@ -39,6 +41,7 @@ export class AppComponent {
   }
 
   toggle() {
-    this.hidden = !this.hidden;
+   // this.hidden = !this.hidden;
+    this.router.navigate(['/impressum']);
   }
 }

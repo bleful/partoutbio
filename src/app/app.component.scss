@@ -3,15 +3,15 @@
 
 ::ng-deep .swiper-pagination-bullet-active {
     opacity: 1;
-    background: $main-green!important;
+    background: $main-green !important;
     transform: scale(2);
-    margin-left: 15px!important;
-    margin-right: 15px!important;
+    margin-left: 15px !important;
+    margin-right: 15px !important;
 }
 
-::ng-deep.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {  
-    margin: 10px;  
-} 
+::ng-deep.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 10px;
+}
 
 ::ng-deep.swiper-pagination-bullet {
     width: 8px;
@@ -27,7 +27,6 @@
 
 .navbar {
     position: fixed;
-    background-color: $navbar-transparent;
     width: 100%;
     height: 92px;
     z-index: 9999;
@@ -63,8 +62,8 @@
             hr {
                 opacity: 0;
                 width: 0%;
-                margin-block-start: 0!important;
-                margin-block-end: 0!important;
+                margin-block-start: 0 !important;
+                margin-block-end: 0 !important;
                 transition: all 0.3s ease-in-out;
             }
         }
@@ -82,9 +81,41 @@
 
 .navbar-inverse {
     top: -92px;
-    background-color: $navbar;
+    background-color: #ffffff;
     animation-name: fadein;
     animation-duration: 800ms;
+    box-shadow: 0px 0px 20px rgba(58, 67, 77, 0.3);
+
+    i {
+        color: #000000;
+    }
+
+    ul {
+        li {
+            p {
+                color: #000000;
+            }
+        }
+    }
+}
+
+.footer {
+    background-color: #222;
+    height: fit-content;
+
+    .bottom-container {
+        width: 100%;
+        border-top: 1px solid #434343;
+        border-bottom: 1px solid #434343;
+        padding: 10px 0;
+        text-align: center;
+
+        h3 {
+            margin-top: 0;
+            margin-bottom: 0;
+            font-size: 20px;
+        }
+    }
 }
 
 @keyframes fadein {
@@ -99,9 +130,22 @@
 
 .navbar-outverse {
     top: 0px;
-    background-color: $navbar;
+    background-color: #ffffff;
     animation-name: fadeout;
     animation-duration: 800ms;
+    box-shadow: 0px 0px 20px rgba(58, 67, 77, 0.3);
+
+    i {
+        color: #000000;
+    }
+
+    ul {
+        li {
+            p {
+                color: #000000;
+            }
+        }
+    }
 }
 
 @keyframes fadeout {
@@ -115,17 +159,17 @@
 }
 
 .navbar-transparent {
-    background-color: $navbar-transparent;
+    background-color: rgba(250, 250, 250, 0);
     animation-name: transparent;
     animation-duration: 800ms;
 }
 
 @keyframes transparent {
     from {
-        background-color: $navbar;
+        background-color: rgba(250, 250, 250, 1);
     }
 
     to {
-        background-color: $navbar-transparent;
+        background-color: rgba(250, 250, 250, 0);
     }
 }
