@@ -179,12 +179,33 @@ swiper {
 
 .first-img {
     background-image: url("../../assets/img/bilder/food.jpg");
+    background-size: 350px 300px;
+    transition: all 0.5s ease-out;
+}
+
+.first-img:hover {
+    background-size: 400px 350px;
+    transition: all 2s ease-out;
 }
 
 .second-img {
     background-image: url("../../assets/img/bilder/caffee.jpg");
+    background-size: 500px 400px;
+    transition: all 0.5s ease-out;
+}
+
+.second-img:hover {
+    background-size: 550px 450px;
+    transition: all 2s ease-out;
 }
 
 .theerd-img {
     background-image: url("../../assets/img/bilder/dekoration.jpg");
+    background-size: 350px 300px;
+    transition: all 0.5s ease-out;
+}
+
+.theerd-img:hover {
+    background-size: 400px 350px;
+    transition: all 2s ease-out;
 }
