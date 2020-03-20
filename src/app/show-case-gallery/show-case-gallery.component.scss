@@ -14,6 +14,61 @@ swiper {
     margin-top: -100px;
 }
 
+//default button
+.btn {
+    color: #000;
+    cursor: pointer;
+    // display: block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 45px;
+    margin: 0 0 2em;
+    max-width: 160px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+
+/////////////////////////////////
+//button one
+///////////////////////////////
+.btn-1 {
+    background: darken(red, 1.5%);
+    font-weight: 100;
+
+    svg {
+        height: 45px;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+
+    rect {
+        fill: none;
+        stroke: #000;
+        stroke-width: 2;
+        stroke-dasharray: 422, 0;
+        transition: all 0.35s linear;
+    }
+}
+
+.btn-1:hover {
+    background: rgba(red, 0);
+    font-weight: 900;
+    letter-spacing: 1px;
+
+    rect {
+        stroke-width: 5;
+        stroke-dasharray: 15, 310;
+        stroke-dashoffset: 48;
+        transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+    }
+}
+
+
 
 .gallery-container,
 .swiper-container {
@@ -41,44 +96,79 @@ swiper {
         align-items: center;
 
         cursor: pointer;
-        box-shadow: 0 0 200px rgba(0,0,0,0.0) inset;
+        box-shadow: 0 0 200px rgba(0, 0, 0, 0.0) inset;
         transition: all $transition-speed ease-in-out;
 
         .center {
             margin-left: auto;
             margin-right: auto;
-            padding-left: 18px;
-            padding-right: 18px;
-            background-color: rgba(255, 255, 255, .0);
-            border-style: dotted;
-            border-radius: 50px;
-            border-color: rgba(248, 246, 243, 0.0);
             transition: all $transition-speed ease-in-out;
 
-            h3 {
-                font-size: 32px;
-                color: rgba(255, 255, 255, .8);
-                transition: all $transition-speed ease-in-out;
+            svg {
+                height: 60px;
+                width: 220px;
+                left: 40px;
+                position: absolute;
+                top: 147px;
+                box-shadow: 0 0 70px rgba(0, 0, 0, 0.0) inset;
+                transition: all 0.5s linear;
             }
 
-            h2 {}
+            rect {
+                fill: none;
+                stroke: rgba(248, 246, 243, .0);
+                stroke-width: 2;
+                stroke-dasharray: 422, 0;
+                transition: all 0.5s linear;
+            }
+
+            .absolute {
+                position: absolute;
+                left: 0;
+                top: 0;
+                height: 350px;
+                width: 300px;
+                text-align: center;
+                
+                h3 {
+                    position: relative;
+                    top: 142px;
+                    font-size: 32px;
+                    color: rgba(255, 255, 255, .8);
+                    z-index: 9999;
+                    transition: all 0.5s linear;
+                }
+            }
         }
     }
 
     .black-overlay:hover {
         background-color: rgba(0, 0, 0, .0);
-        box-shadow: 0 0 200px rgba(0,0,0,0.6) inset;
+        box-shadow: 0 0 200px rgba(0, 0, 0, 0.6) inset;
+        transition: all $transition-speed ease-in-out;
 
         .center {
-            border-color: rgba(97, 141, 47, 0.8);
-            background-color: rgba(248, 246, 243, .8);
 
-            h3 {
-                font-size: 32px;
-                color: $text-color-pos;
+            svg {
+                box-shadow: 0 0 70px rgba(0, 0, 0, 0.9) inset;
+                transition: all 0.5s linear;
             }
 
-            h2 {}
+            rect {
+                stroke-width: 5;
+                stroke-dasharray: 58, 220;
+                stroke-dashoffset: 48;
+                stroke: rgba(248, 246, 243, .8);
+                transition: all 2.35s cubic-bezier(0.19, 1, 0.22, 1);
+            }
+
+            .absolute {
+                
+                h3 {
+                    color: rgba(255, 255, 255, 1);
+                    transition: all 0.5s linear;
+                }
+            }
         }
     }
 }
