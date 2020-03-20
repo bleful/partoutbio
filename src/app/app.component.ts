@@ -40,8 +40,11 @@ export class AppComponent {
     this.lastnumber = window.pageYOffset;
   }
 
-  toggle() {
-   // this.hidden = !this.hidden;
+  navToImpressum() {
     this.router.navigate(['/impressum']);
+  }
+
+  navToHome() {
+    this.router.navigate(['/home']);
   }
 }

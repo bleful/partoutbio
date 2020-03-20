@@ -81,7 +81,7 @@
 
 .navbar-inverse {
     top: -92px;
-    background-color: #ffffff;
+    background-color: $navbar;
     animation-name: fadein;
     animation-duration: 800ms;
     box-shadow: 0px 0px 20px rgba(58, 67, 77, 0.3);
@@ -130,7 +130,7 @@
 
 .navbar-outverse {
     top: 0px;
-    background-color: #ffffff;
+    background-color: $navbar;
     animation-name: fadeout;
     animation-duration: 800ms;
     box-shadow: 0px 0px 20px rgba(58, 67, 77, 0.3);
@@ -145,6 +145,24 @@
                 color: #000000;
             }
         }
+    }
+}
+
+.center-flex {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+
+    .left-marg {
+        margin-left: 20px;
+        transition: all 0.2s ease-in-out;
+        opacity: 1;
+        cursor: pointer;
+    }
+
+    .left-marg:hover {
+       color: rgba(255, 255, 255, .3);
     }
 }
 

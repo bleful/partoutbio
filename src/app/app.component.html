@@ -2,33 +2,37 @@
      (scroll)="onWindowScroll($event);">
     <ul *ngIf="!hidden">
         <li>
-            <p (click)="toggle()">Home</p>
+            <p >Home</p>
             <hr>
         </li>
         <li>
-            <p (click)="toggle()">Contact</p>
+            <p >Contact</p>
             <hr>
         </li>
         <li>
-            <p (click)="toggle()">Team</p>
+            <p >Team</p>
             <hr>
         </li>
         <li>
-            <p (click)="toggle()">Info</p>
+            <p >Info</p>
             <hr>
         </li>
     </ul>
 
-    <i class="fa fa-bars"
-       (click)="toggle()"
-       *ngIf="hidden"></i>
+    <i class="fa fa-home"
+       *ngIf="hidden"
+       (click)="navToHome()"></i>
 </nav>
 
 
 <router-outlet></router-outlet>
 
 <div class="footer">
-    <div class="bottom-container center">
+    <div class="bottom-container">
+        <div class="center-flex">
         <h3>© 2020 Partout Bio - Designed by Hendrik Do.</h3>
+        <h3 class="left-marg"
+            (click)="navToImpressum()">Impressum</h3>
+    </div>
     </div>
 </div>
