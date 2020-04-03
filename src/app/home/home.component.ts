@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
+import { Component, OnInit, AfterViewInit, ViewChild } from '@angular/core';
 import Parallax from 'parallax-js';
 import { google } from "google-maps";
 
@@ -16,6 +16,11 @@ export class HomeComponent implements OnInit {
 
   public lottieConfig: Object;
   private anim: any;
+
+  texto: string = 'Partout Bio';
+  lat: number = 51.3130073;
+  lng: number = 9.4648409;
+  zoom: number = 17;
 
   constructor() {
     this.lottieConfig = {
@@ -38,12 +43,12 @@ export class HomeComponent implements OnInit {
   }
 
   ngOnInit() {
-    var mapProp = {
-      center: new google.maps.LatLng(18.5793, 73.8143),
-      zoom: 15,
-      mapTypeId: google.maps.MapTypeId.ROADMAP
-    };
-    this.map = new google.maps.Map(this.gmapElement.nativeElement, mapProp);
+    // var mapProp = {
+    //   center: new google.maps.LatLng(18.5793, 73.8143),
+    //   zoom: 15,
+    //   mapTypeId: google.maps.MapTypeId.ROADMAP
+    // };
+    // this.map = new google.maps.Map(this.gmapElement.nativeElement, mapProp);
   }
 
   handleAnimation(anim: any) {

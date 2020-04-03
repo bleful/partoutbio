@@ -11,6 +11,7 @@ import { MainGalleryComponent } from './main-gallery/main-gallery.component';
 import { ShowCaseGalleryComponent } from './show-case-gallery/show-case-gallery.component';
 import { ImpressumComponent } from './impressum/impressum.component';
 import { RouterModule, Routes } from '@angular/router';
+import { AgmCoreModule } from '@agm/core';
 
 const routes: Routes = [
   { path: '**', component: HomeComponent },
@@ -32,7 +33,10 @@ const routes: Routes = [
     AppRoutingModule,
     NgxUsefulSwiperModule,
     RouterModule.forRoot(routes),
-    LottieAnimationViewModule.forRoot()
+    LottieAnimationViewModule.forRoot(),
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyBeLVLlxfR-au2mJF-3kemjXf4P2BGxgIo'
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]

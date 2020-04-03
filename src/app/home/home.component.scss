@@ -2,6 +2,10 @@
 @import '../../assets/scss/variables.scss';
 @import '../../assets/scss/fonts.scss';
 
+agm-map {
+    height: 500px;
+}
+
 .parallax-img {
     background-image: url("../../assets/img/bilder/regale.jpg");
     height: 600px;
@@ -58,6 +62,7 @@
                 border-style: dotted;
                 border-radius: 50px;
                 border-color: rgba(97, 141, 47, 0.8);
+                background-color: #ffffff;
                 padding: 20px;
                 width: 79px;
                 height: 78px;
