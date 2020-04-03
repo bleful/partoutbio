@@ -1,6 +1,5 @@
 import { Component, OnInit, AfterViewInit, ViewChild } from '@angular/core';
 import Parallax from 'parallax-js';
-import { google } from "google-maps";
 
 declare var Parallax: any;
 
