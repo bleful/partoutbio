@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, HostListener } from '@angular/core';
 import { Swiper, SwiperOptions, Navigation, Pagination, Scrollbar } from 'swiper/js/swiper.esm.js';
 
 @Component({
@@ -13,7 +13,7 @@ export class ShowCaseGalleryComponent implements OnInit {
   swiperOptions: SwiperOptions = {
     navigation: {}
   };
-  
+
   config: any = {
     observer: true,
     observeParents: true,
@@ -39,7 +39,18 @@ export class ShowCaseGalleryComponent implements OnInit {
 
   };
 
-  constructor() { }
+  @HostListener('window:resize', ['$event'])
+  onResize(event?) {
+    if (window.innerWidth < 450) {
+      this.config.slidesPerView = 1;
+    } else {
+      this.config.slidesPerView = 3;
+    }
+  }
+
+  constructor() {
+    this.onResize();
+  }
 
   ngOnInit() {
   }

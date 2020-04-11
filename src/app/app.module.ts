@@ -12,6 +12,7 @@ import { ShowCaseGalleryComponent } from './show-case-gallery/show-case-gallery.
 import { ImpressumComponent } from './impressum/impressum.component';
 import { RouterModule, Routes } from '@angular/router';
 import { AgmCoreModule } from '@agm/core';
+import { ContentfulService } from './service/contentful.service';
 
 const routes: Routes = [
   { path: '**', component: HomeComponent },
@@ -38,7 +39,7 @@ const routes: Routes = [
       apiKey: 'AIzaSyBeLVLlxfR-au2mJF-3kemjXf4P2BGxgIo'
     })
   ],
-  providers: [],
+  providers: [ContentfulService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

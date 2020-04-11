@@ -8,7 +8,7 @@ import { ImpressumComponent } from './impressum/impressum.component';
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'impressum', component: ImpressumComponent },
-  { path: '**', component: HomeComponent }
+  { path: '**', component: HomeComponent },
 ];
 
 @NgModule({

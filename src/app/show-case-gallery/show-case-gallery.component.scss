@@ -209,3 +209,14 @@ swiper {
     background-size: 400px 350px;
     transition: all 2s ease-out;
 }
+
+.forth-img {
+    background-image: url("../../assets/img/bilder/kosmetik.jpg");
+    background-size: 500px 350px;
+    transition: all 0.5s ease-out;
+}
+
+.forth-img:hover {
+    background-size: 580px 400px;
+    transition: all 2s ease-out;
+}

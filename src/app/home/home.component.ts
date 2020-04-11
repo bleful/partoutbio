@@ -1,17 +1,21 @@
-import { Component, OnInit, AfterViewInit, ViewChild } from '@angular/core';
+import { Component, OnInit, HostListener, AfterContentInit, ViewChild } from '@angular/core';
 import Parallax from 'parallax-js';
 
 declare var Parallax: any;
+
+class Ware {
+  titel: string;
+  icon: string;
+
+
+}
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss']
 })
-export class HomeComponent implements OnInit {
-
-  @ViewChild('gmap', null) gmapElement: any;
-  map: google.maps.Map;
+export class HomeComponent implements AfterContentInit {
 
   public lottieConfig: Object;
   private anim: any;
@@ -38,10 +42,7 @@ export class HomeComponent implements OnInit {
 
     parallaxInstance.limit(60, 60);
     parallaxInstance.origin(.1, .1);
-   // parallaxInstance.invert(false, false);
-  }
-
-  ngOnInit() {
+    // parallaxInstance.invert(false, false);
   }
 
   handleAnimation(anim: any) {
