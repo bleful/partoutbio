@@ -47,4 +47,12 @@ export class AppComponent {
   navToHome() {
     this.router.navigate(['/home']);
   }
+
+  navToFacebook() {
+    window.location.href = 'https://www.facebook.com/partoutbio/';
+  }
+
+  navToInstagram() {
+    window.location.href = 'https://www.instagram.com/partoutbio';
+  }
 }
