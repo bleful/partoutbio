@@ -61,7 +61,7 @@ export class HomeComponent implements AfterContentInit, OnInit {
       loop: true
     };
 
-    this.httpClient.get('../../assets/json/Sortiment.json').subscribe(data => {
+    this.httpClient.get('./assets/json/Sortiment.json').subscribe(data => {
       console.log(data);
       this.products = data;
     });

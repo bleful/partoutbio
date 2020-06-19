@@ -55,8 +55,6 @@
                     <h3 class="center">Adresse</h3>
                     <p class="center">Kirchweg 50, Kassel</p>
                 </div>
-            </div>
-            <div class="flex-box">
                 <div class="contact-element">
                     <div class="icon-container center">
                         <i class="fa fa-clock-o"></i>
@@ -96,10 +94,10 @@
                  class="kachel"
                  (click)="getCategoryIndex(i)">
                  <div *ngIf="category === i" class="activ-inner-kachel">
-                    <img src="../../assets/Icons/{{kategorie.name}}.svg">
+                    <img src="./assets/Icons/{{kategorie.name}}.svg">
                 </div>
                 <div *ngIf="category !== i" class="inner-kachel">
-                    <img src="../../assets/Icons/{{kategorie.name}}.svg">
+                    <img src="./assets/Icons/{{kategorie.name}}.svg">
                 </div>
             </div>
         </div>
