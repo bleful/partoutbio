@@ -1,0 +1,982 @@
+[
+
+  {
+    "name": "Trocken",
+    "subtitel": [
+      {
+        "name": "Gewürze und Kräuter",
+        "inhalt": [
+          {
+            "name": "Bio Anis",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Chiliflocken",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Basilikum",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Knoblauchflocken",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Koriander",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Muskatnuss gemahlen",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Muskatnüsse",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Pfeffer versch. Sorten",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Knoblauch",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Rosmarin",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Kurkuma",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Kümmel",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Majoran",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Petersilie",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Bohnenkraut",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Zwiebelflocken",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Thymian",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Oregano",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Brotgewürz",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Currypulver",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Fenchel versch. Sorten",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Brennesselblätter",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Paprika edelsüß",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Bockshornklee",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Dillspitzen",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Ingwer",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Nanaminze",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Gewürzmischungen",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Zimt",
+            "beschreibung": ""
+          }
+        ]
+      },
+      {
+        "name": "Trockenfrüchte",
+        "inhalt": [
+          {
+            "name": "Bio Aprikosen",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Feigen",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Datteln",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Aronia, Apfelbeeren",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Cranberries",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Bananenchips",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Sultaninen",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Rosinenmix Tricolore",
+            "beschreibung": ""
+          }
+        ]
+      },
+      {
+        "name": "Getreide",
+        "inhalt": [
+          {
+            "name": "Bio Dinkel",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Quinoa weiß",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Quinoa Tricolore",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Bulgur",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Speisehirse",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Grünkern",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Buchweizen",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Roggen",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Weizen",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Cous Cous",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Weizen-Paniermehl",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Polenta (Maisgries)",
+            "beschreibung": ""
+          }
+        ]
+      },
+      {
+        "name": "Flocken/Frühstück",
+        "inhalt": [
+          {
+            "name": "Bio Haferflocken Kleinblatt",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Haferflocken Großblatt",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Amaranth gepufft",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Cornflakes Hellgelb",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Müsli Amaranth-Beeren",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Granola Apfel-Zimt",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Hafer Granola mit Früchten",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Hafer Granola versch. Sorten ",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Basis-Müsli",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Müsli-Vital",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Crunchy Frucht-Hafer",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Schokocrisps",
+            "beschreibung": ""
+          }
+        ]
+      },
+      {
+        "name": "Mehlsorten",
+        "inhalt": [
+          {
+            "name": "Bio Weizenmehl 405",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Dinkelmehl 630",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Buchweizenmehl",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Mandelmehl",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Leinmehl",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Hanfmehl",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Kichererbsenmehl",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Kürbiskernmehl",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Rotes Linsenmehl",
+            "beschreibung": ""
+          }
+        ]
+      },
+      {
+        "name": "Hülsenfrüchte",
+        "inhalt": [
+          {
+            "name": "Bio Kichererbsen",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Sojabohnen",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Rote Linsen",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Braune Berglinsen",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Kidneybohnen",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Bohnen weiß",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Popkornmais",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Sojabrocken fein",
+            "beschreibung": ""
+          }
+        ]
+      },
+      {
+        "name": "Reis",
+        "inhalt": [
+          {
+            "name": "Bio Milchreis (Rundkornreis)",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Basmatireis",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Jasminreis",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Vollkornreis",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Langkornreis weiß",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Parboiled-Langkornreis",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Parboiled-Reis weiß",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Reismischung ",
+            "beschreibung": "(Lang/Rot/Parboiled)"
+          }
+        ]
+      },
+      {
+        "name": "Pasta",
+        "inhalt": [
+          {
+            "name": "Bio Spirelli Semola",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Spirelli Vollkorn",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Mais-Penne",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Penne Hell",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Penne Vollkorn",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Rote Linsen Nudeln",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Lasagne-Platten Hell",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Spaghetti Semola",
+            "beschreibung": ""
+          }
+        ]
+      },
+      {
+        "name": "Nüsse und Kerne",
+        "inhalt": [
+          {
+            "name": "Bio Haselnusskerne",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Cashew-Kerne",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Erdnusskerne blanchiert",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Erdnüsse geröstet",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Mandeln blanchiert",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Wallnuss-Stücke",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Paranusskerne",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Erdmandeln geschält",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Studentenfutter",
+            "beschreibung": ""
+          }
+        ]
+      }
+    ]
+  },
+
+  
+  {
+    "name": "Backwaren",
+    "subtitel": [
+      {
+        "name": "Bio Backwaren/Bio Kuchen",
+        "inhalt": [
+          {
+            "name": "Sämtliche Backwaren",
+            "beschreibung": "(Brote, Brötchen, etc.) beziehen wir von Gut Kragenhof"
+          }
+        ]
+      },
+      {
+        "name": "Backzutaten/Zucker",
+        "inhalt": [
+          {
+            "name": "Bio Backpulver",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Rohrzucker weiß",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Kokosblütenzucker",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Rohrohrzucker",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Kokosraspeln",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Natron",
+            "beschreibung": ""
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "name": "Zusatz",
+    "subtitel": [
+      {
+        "name": "Senf",
+        "inhalt": [
+          {
+            "name": "Bio Feiner Senf",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Kräuter Senf",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Ganzkorn Senf",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Mittelscharfer Senf",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Süßer Senf",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Scharfer Senf",
+            "beschreibung": ""
+          }
+        ]
+      },
+      {
+        "name": "Honig",
+        "inhalt": [
+          {
+            "name": "Kasseler Stadthonig",
+            "beschreibung": "Wir führen das Sortiment  vom Kasseler Stadthonig"
+          }
+        ]
+      },
+      {
+        "name": "Essig und Öl",
+        "inhalt": [
+          {
+            "name": "Bio Sonnenblumenöl",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Olivenöl versch. Sorten",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Rapsöl",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Kokosöl",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Apfelessig",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Aceto Balsamico",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Brat- und Backöl",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Aprikosenkernöl",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Kürbiskernöl",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Salatöl ",
+            "beschreibung": ""
+          }
+        ]
+      },
+      {
+        "name": "Ölsaaten",
+        "inhalt": [
+          {
+            "name": "Bio Kürbiskerne geröstet",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Sonnenblumenkerne",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Leinsaat braun",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Sesamsaat geschält",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Chiasaat",
+            "beschreibung": ""
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "name": "Kaffee",
+    "subtitel": [
+      {
+        "name": "Kaffee von Röstrausch",
+        "inhalt": [
+          {
+            "name": "Bio Kaffee Himmelsstürmer",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Kaffee Peru",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Espresso Sivador",
+            "beschreibung": ""
+          }
+        ]
+      },
+      {
+        "name": "Tee",
+        "inhalt": [
+          {
+            "name": "Bio Ingwer-Lemon Tee",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Kräuter-Tee",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Tee versch. Sorten",
+            "beschreibung": ""
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "name": "Essen",
+    "subtitel": [
+      {
+        "name": "Mit Tomaten",
+        "inhalt": [
+          {
+            "name": "Bio Tomatensauce versch. Sorten",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Tomatenketchup versch. Sorten",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Tomatenmark",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio getrocknete Tomatenhälften",
+            "beschreibung": ""
+          }
+        ]
+      },
+      {
+        "name": "Aufstriche/Nussmuse",
+        "inhalt": [
+          {
+            "name": "Bio Nussmuse versch. Sorten",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Schokoafstrich versch. Sorten",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Fruchtaufstriche versch. Sorten",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Gelee versch. Sorten",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Brotaufstriche versch. Sorten",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Kräuteraufstriche",
+            "beschreibung": ""
+          }
+        ]
+      },
+      {
+        "name": "Bio Getränke",
+        "inhalt": [
+          {
+            "name": "Bio Getränke/Bio Säfte",
+            "beschreibung": "Alle Sorten von LemonAid und ChariTea, Frchtsäfte von Voelkel, Diverse Mix-Getränke"
+          }
+        ]
+      },
+      {
+        "name": "Obst und Gemüse",
+        "inhalt": [
+          {
+            "name": "Bio Obst und Bio Gemüse",
+            "beschreibung": "Es gibt ein saisonales und regionales Obst- und Gemüseangebot"
+          }
+        ]
+      },
+      {
+        "name": "Eier/Milchprodukte",
+        "inhalt": [
+          {
+            "name": "Bio Eier",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Joghurt versch. Sorten",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Schmand",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Schlagsahne",
+            "beschreibung": ""
+          }
+        ]
+      },
+      {
+        "name": "Kräuter/Stauden",
+        "inhalt": [
+          {
+            "name": "Kräuter/Stauden",
+            "beschreibung": "Wir bekommen  Kräuter & Stauden von  K&K Stauden aus Kassel"
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "name": "NonFood",
+    "subtitel": [
+      {
+        "name": "Reinigungsmittel",
+        "inhalt": [
+          {
+            "name": "Wasch- und Geschirrspülmittel",
+            "beschreibung": "Wir haben eine Abfüllstation für Wasch- und Geschirrspülmittel sowie Reinigungsprodukte der Firma Sonett"
+          }
+        ]
+      },
+      {
+        "name": "Natur-Kosmetik",
+        "inhalt": [
+          {
+            "name": "Primavera",
+            "beschreibung": ""
+          },
+          {
+            "name": "FairSquared",
+            "beschreibung": ""
+          },
+          {
+            "name": "Finigrana",
+            "beschreibung": ""
+          },
+          {
+            "name": "Ben & Anna",
+            "beschreibung": ""
+          }
+        ]
+      },
+      {
+        "name": "Drogerieartikel",
+        "inhalt": [
+          {
+            "name": "Badematten",
+            "beschreibung": ""
+          },
+          {
+            "name": "Gesichtsreinigungsschwämme",
+            "beschreibung": ""
+          },
+          {
+            "name": "Abschminkpads",
+            "beschreibung": ""
+          },
+          {
+            "name": "Ohrstäbchen",
+            "beschreibung": ""
+          },
+          {
+            "name": "Rasierhobel und Rasier-",
+            "beschreibung": ""
+          },
+          {
+            "name": "zubehör",
+            "beschreibung": ""
+          },
+          {
+            "name": "Luffa-Schwämme versch. Sorten",
+            "beschreibung": ""
+          },
+          {
+            "name": "Seifensäckchen",
+            "beschreibung": ""
+          },
+          {
+            "name": "Seifenschalen versch. Sorten",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bürsten und Kämme",
+            "beschreibung": ""
+          },
+          {
+            "name": "Period-Cups",
+            "beschreibung": ""
+          },
+          {
+            "name": "Haar- und Körperseifen",
+            "beschreibung": ""
+          },
+          {
+            "name": "Cremes und Öle",
+            "beschreibung": ""
+          },
+          {
+            "name": "Duftsprays",
+            "beschreibung": ""
+          },
+          {
+            "name": "Duft-Öle",
+            "beschreibung": ""
+          },
+          {
+            "name": "Duftöl-Zubehör",
+            "beschreibung": ""
+          }
+        ]
+      },
+      {
+        "name": "Aufbewahrung",
+        "inhalt": [
+          {
+            "name": "Brotdosen",
+            "beschreibung": ""
+          },
+          {
+            "name": "Dosen für Kaffee, Tee, etc.",
+            "beschreibung": ""
+          },
+          {
+            "name": "Trinkflaschen aus Glas",
+            "beschreibung": ""
+          },
+          {
+            "name": "Trinkflaschen aus Edelstahl",
+            "beschreibung": ""
+          },
+          {
+            "name": "Reinigungsbürsten für",
+            "beschreibung": ""
+          },
+          {
+            "name": "Flaschen",
+            "beschreibung": ""
+          },
+          {
+            "name": "Glas-Strohhalme",
+            "beschreibung": ""
+          },
+          {
+            "name": "Gläser versch. Sorten",
+            "beschreibung": ""
+          },
+          {
+            "name": "Stoffbeutel versch. Sorten",
+            "beschreibung": ""
+          }
+        ]
+      },
+      {
+        "name": "Monatshygiene",
+        "inhalt": [
+          {
+            "name": "Stoffbinden",
+            "beschreibung": "Von Kulmine"
+          },
+          {
+            "name": "Stoffslipeinlagen",
+            "beschreibung": "Von Kulmine"
+          }
+        ]
+      },
+      {
+        "name": "Zahnpflege",
+        "inhalt": [
+          {
+            "name": "Zahnbürsten versch. Sorten",
+            "beschreibung": "Von Hydrophil"
+          },
+          {
+            "name": "Zahnputzbecher",
+            "beschreibung": "Von Hydrophil"
+          },
+          {
+            "name": "Zahnbürstenhalter",
+            "beschreibung": "Von Hydrophil"
+          }
+        ]
+      },
+      {
+        "name": "Olivenholz-Artikel",
+        "inhalt": [
+          {
+            "name": "Brettchen",
+            "beschreibung": ""
+          },
+          {
+            "name": "Seifenschalen",
+            "beschreibung": ""
+          },
+          {
+            "name": "Dip-Schalen",
+            "beschreibung": ""
+          },
+          {
+            "name": "Küchenutensilien",
+            "beschreibung": ""
+          },
+          {
+            "name": "Rasierhobel",
+            "beschreibung": ""
+          },
+          {
+            "name": "Grillzangen",
+            "beschreibung": ""
+          },
+          {
+            "name": "Schalen versch. Größen",
+            "beschreibung": ""
+          },
+          {
+            "name": "u.n.v.m.",
+            "beschreibung": ""
+          }
+        ]
+      }
+    ]
+  }
+
+]

@@ -1,305 +1,4 @@
 [
-  {
-    "name": "Backwaren",
-    "subtitel": [
-      {
-        "name": "Bio Backwaren/Bio Kuchen",
-        "inhalt": [
-          {
-            "name": "Sämtliche Backwaren",
-            "beschreibung": "(Brote, Brötchen, etc.) beziehen wir von Gut Kragenhof"
-          }
-        ]
-      },
-      {
-        "name": "Backzutaten/Zucker",
-        "inhalt": [
-          {
-            "name": "Bio Backpulver",
-            "beschreibung": ""
-          },
-          {
-            "name": "Bio Rohrzucker weiß",
-            "beschreibung": ""
-          },
-          {
-            "name": "Bio Kokosblütenzucker",
-            "beschreibung": ""
-          },
-          {
-            "name": "Bio Rohrohrzucker",
-            "beschreibung": ""
-          },
-          {
-            "name": "Bio Kokosraspeln",
-            "beschreibung": ""
-          },
-          {
-            "name": "Bio Natron",
-            "beschreibung": ""
-          }
-        ]
-      }
-    ]
-  },
-
-  {
-    "name": "Zusatz",
-    "subtitel": [
-      {
-        "name": "Senf",
-        "inhalt": [
-          {
-            "name": "Bio Feiner Senf",
-            "beschreibung": ""
-          },
-          {
-            "name": "Bio Kräuter Senf",
-            "beschreibung": ""
-          },
-          {
-            "name": "Bio Ganzkorn Senf",
-            "beschreibung": ""
-          },
-          {
-            "name": "Bio Mittelscharfer Senf",
-            "beschreibung": ""
-          },
-          {
-            "name": "Bio Süßer Senf",
-            "beschreibung": ""
-          },
-          {
-            "name": "Bio Scharfer Senf",
-            "beschreibung": ""
-          }
-        ]
-      },
-      {
-        "name": "Honig",
-        "inhalt": [
-          {
-            "name": "Kasseler Stadthonig",
-            "beschreibung": "Wir führen das Sortiment  vom Kasseler Stadthonig"
-          }
-        ]
-      },
-      {
-        "name": "Essig und Öl",
-        "inhalt": [
-          {
-            "name": "Bio Sonnenblumenöl",
-            "beschreibung": ""
-          },
-          {
-            "name": "Bio Olivenöl versch. Sorten",
-            "beschreibung": ""
-          },
-          {
-            "name": "Bio Rapsöl",
-            "beschreibung": ""
-          },
-          {
-            "name": "Bio Kokosöl",
-            "beschreibung": ""
-          },
-          {
-            "name": "Bio Apfelessig",
-            "beschreibung": ""
-          },
-          {
-            "name": "Bio Aceto Balsamico",
-            "beschreibung": ""
-          },
-          {
-            "name": "Bio Brat- und Backöl",
-            "beschreibung": ""
-          },
-          {
-            "name": "Bio Aprikosenkernöl",
-            "beschreibung": ""
-          },
-          {
-            "name": "Bio Kürbiskernöl",
-            "beschreibung": ""
-          },
-          {
-            "name": "Bio Salatöl ",
-            "beschreibung": ""
-          }
-        ]
-      },
-      {
-        "name": "Ölsaaten",
-        "inhalt": [
-          {
-            "name": "Bio Kürbiskerne geröstet",
-            "beschreibung": ""
-          },
-          {
-            "name": "Bio Sonnenblumenkerne",
-            "beschreibung": ""
-          },
-          {
-            "name": "Bio Leinsaat braun",
-            "beschreibung": ""
-          },
-          {
-            "name": "Bio Sesamsaat geschält",
-            "beschreibung": ""
-          },
-          {
-            "name": "Bio Chiasaat",
-            "beschreibung": ""
-          }
-        ]
-      }
-    ]
-  },
-
-  {
-    "name": "Tee/Kaffee",
-    "subtitel": [
-      {
-        "name": "Kaffee von Röstrausch",
-        "inhalt": [
-          {
-            "name": "Bio Kaffee Himmelsstürmer",
-            "beschreibung": ""
-          },
-          {
-            "name": "Bio Kaffee Peru",
-            "beschreibung": ""
-          },
-          {
-            "name": "Bio Espresso Sivador",
-            "beschreibung": ""
-          }
-        ]
-      },
-      {
-        "name": "Tee",
-        "inhalt": [
-          {
-            "name": "Bio Ingwer-Lemon Tee",
-            "beschreibung": ""
-          },
-          {
-            "name": "Bio Kräuter-Tee",
-            "beschreibung": ""
-          },
-          {
-            "name": "Bio Tee versch. Sorten",
-            "beschreibung": ""
-          }
-        ]
-      }
-    ]
-  },
-
-  {
-    "name": "Essen",
-    "subtitel": [
-      {
-        "name": "Mit Tomaten",
-        "inhalt": [
-          {
-            "name": "Bio Tomatensauce versch. Sorten",
-            "beschreibung": ""
-          },
-          {
-            "name": "Bio Tomatenketchup versch. Sorten",
-            "beschreibung": ""
-          },
-          {
-            "name": "Bio Tomatenmark",
-            "beschreibung": ""
-          },
-          {
-            "name": "Bio getrocknete Tomatenhälften",
-            "beschreibung": ""
-          }
-        ]
-      },
-      {
-        "name": "Aufstriche/Nussmuse",
-        "inhalt": [
-          {
-            "name": "Bio Nussmuse versch. Sorten",
-            "beschreibung": ""
-          },
-          {
-            "name": "Bio Schokoafstrich versch. Sorten",
-            "beschreibung": ""
-          },
-          {
-            "name": "Bio Fruchtaufstriche versch. Sorten",
-            "beschreibung": ""
-          },
-          {
-            "name": "Bio Gelee versch. Sorten",
-            "beschreibung": ""
-          },
-          {
-            "name": "Bio Brotaufstriche versch. Sorten",
-            "beschreibung": ""
-          },
-          {
-            "name": "Bio Kräuteraufstriche",
-            "beschreibung": ""
-          }
-        ]
-      },
-      {
-        "name": "Bio Getränke",
-        "inhalt": [
-          {
-            "name": "Bio Getränke/Bio Säfte",
-            "beschreibung": "Alle Sorten von LemonAid und ChariTea, Frchtsäfte von Voelkel, Diverse Mix-Getränke"
-          }
-        ]
-      },
-      {
-        "name": "Obst und Gemüse",
-        "inhalt": [
-          {
-            "name": "Bio Obst und Bio Gemüse",
-            "beschreibung": "Es gibt ein saisonales und regionales Obst- und Gemüseangebot"
-          }
-        ]
-      },
-      {
-        "name": "Eier/Milchprodukte",
-        "inhalt": [
-          {
-            "name": "Bio Eier",
-            "beschreibung": ""
-          },
-          {
-            "name": "Bio Joghurt versch. Sorten",
-            "beschreibung": ""
-          },
-          {
-            "name": "Bio Schmand",
-            "beschreibung": ""
-          },
-          {
-            "name": "Bio Schlagsahne",
-            "beschreibung": ""
-          }
-        ]
-      },
-      {
-        "name": "Kräuter/Stauden",
-        "inhalt": [
-          {
-            "name": "Kräuter/Stauden",
-            "beschreibung": "Wir bekommen  Kräuter & Stauden von  K&K Stauden aus Kassel"
-          }
-        ]
-      }
-    ]
-  },
 
   {
     "name": "Trocken",
@@ -764,8 +463,311 @@
     ]
   },
 
+  
   {
-    "name": "Non Food",
+    "name": "Backwaren",
+    "subtitel": [
+      {
+        "name": "Bio Backwaren/Bio Kuchen",
+        "inhalt": [
+          {
+            "name": "Sämtliche Backwaren",
+            "beschreibung": "(Brote, Brötchen, etc.) beziehen wir von Gut Kragenhof"
+          }
+        ]
+      },
+      {
+        "name": "Backzutaten/Zucker",
+        "inhalt": [
+          {
+            "name": "Bio Backpulver",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Rohrzucker weiß",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Kokosblütenzucker",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Rohrohrzucker",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Kokosraspeln",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Natron",
+            "beschreibung": ""
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "name": "Zusatz",
+    "subtitel": [
+      {
+        "name": "Senf",
+        "inhalt": [
+          {
+            "name": "Bio Feiner Senf",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Kräuter Senf",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Ganzkorn Senf",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Mittelscharfer Senf",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Süßer Senf",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Scharfer Senf",
+            "beschreibung": ""
+          }
+        ]
+      },
+      {
+        "name": "Honig",
+        "inhalt": [
+          {
+            "name": "Kasseler Stadthonig",
+            "beschreibung": "Wir führen das Sortiment  vom Kasseler Stadthonig"
+          }
+        ]
+      },
+      {
+        "name": "Essig und Öl",
+        "inhalt": [
+          {
+            "name": "Bio Sonnenblumenöl",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Olivenöl versch. Sorten",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Rapsöl",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Kokosöl",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Apfelessig",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Aceto Balsamico",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Brat- und Backöl",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Aprikosenkernöl",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Kürbiskernöl",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Salatöl ",
+            "beschreibung": ""
+          }
+        ]
+      },
+      {
+        "name": "Ölsaaten",
+        "inhalt": [
+          {
+            "name": "Bio Kürbiskerne geröstet",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Sonnenblumenkerne",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Leinsaat braun",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Sesamsaat geschält",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Chiasaat",
+            "beschreibung": ""
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "name": "Kaffee",
+    "subtitel": [
+      {
+        "name": "Kaffee von Röstrausch",
+        "inhalt": [
+          {
+            "name": "Bio Kaffee Himmelsstürmer",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Kaffee Peru",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Espresso Sivador",
+            "beschreibung": ""
+          }
+        ]
+      },
+      {
+        "name": "Tee",
+        "inhalt": [
+          {
+            "name": "Bio Ingwer-Lemon Tee",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Kräuter-Tee",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Tee versch. Sorten",
+            "beschreibung": ""
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "name": "Essen",
+    "subtitel": [
+      {
+        "name": "Mit Tomaten",
+        "inhalt": [
+          {
+            "name": "Bio Tomatensauce versch. Sorten",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Tomatenketchup versch. Sorten",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Tomatenmark",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio getrocknete Tomatenhälften",
+            "beschreibung": ""
+          }
+        ]
+      },
+      {
+        "name": "Aufstriche/Nussmuse",
+        "inhalt": [
+          {
+            "name": "Bio Nussmuse versch. Sorten",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Schokoafstrich versch. Sorten",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Fruchtaufstriche versch. Sorten",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Gelee versch. Sorten",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Brotaufstriche versch. Sorten",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Kräuteraufstriche",
+            "beschreibung": ""
+          }
+        ]
+      },
+      {
+        "name": "Bio Getränke",
+        "inhalt": [
+          {
+            "name": "Bio Getränke/Bio Säfte",
+            "beschreibung": "Alle Sorten von LemonAid und ChariTea, Frchtsäfte von Voelkel, Diverse Mix-Getränke"
+          }
+        ]
+      },
+      {
+        "name": "Obst und Gemüse",
+        "inhalt": [
+          {
+            "name": "Bio Obst und Bio Gemüse",
+            "beschreibung": "Es gibt ein saisonales und regionales Obst- und Gemüseangebot"
+          }
+        ]
+      },
+      {
+        "name": "Eier/Milchprodukte",
+        "inhalt": [
+          {
+            "name": "Bio Eier",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Joghurt versch. Sorten",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Schmand",
+            "beschreibung": ""
+          },
+          {
+            "name": "Bio Schlagsahne",
+            "beschreibung": ""
+          }
+        ]
+      },
+      {
+        "name": "Kräuter/Stauden",
+        "inhalt": [
+          {
+            "name": "Kräuter/Stauden",
+            "beschreibung": "Wir bekommen  Kräuter & Stauden von  K&K Stauden aus Kassel"
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "name": "NonFood",
     "subtitel": [
       {
         "name": "Reinigungsmittel",
