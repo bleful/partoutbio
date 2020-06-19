@@ -13,6 +13,7 @@ import { ImpressumComponent } from './impressum/impressum.component';
 import { RouterModule, Routes } from '@angular/router';
 import { AgmCoreModule } from '@agm/core';
 import { ContentfulService } from './service/contentful.service';
+import { HttpClientModule } from '@angular/common/http';
 
 const routes: Routes = [
   { path: '**', component: HomeComponent },
@@ -30,6 +31,7 @@ const routes: Routes = [
     ImpressumComponent
   ],
   imports: [
+    HttpClientModule,
     BrowserModule,
     AppRoutingModule,
     NgxUsefulSwiperModule,

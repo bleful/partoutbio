@@ -95,22 +95,17 @@ agm-map {
 .kachel-container {
     height: 165px;
 
-    .kachel-first {
-        background-color: $gray;
-        width: 20%;
-        cursor: pointer;
-        transition: all 0.3s ease-in-out;
-    }
-
     .kachel {
         background-color: $gray;
         width: 20%;
-        margin-left: 5%;
+        margin-left: auto;
+        margin-right: auto;
         cursor: pointer;
         transition: all 0.3s ease-in-out;
     }
 
-    .kachel-first:hover, .kachel:hover {
+    .kachel-first:hover,
+    .kachel:hover {
         background-color: $black;
     }
 
@@ -123,14 +118,25 @@ agm-map {
 
     ul {
         width: fit-content;
+        display: flex;
         margin-left: auto;
         margin-right: auto;
+        flex-wrap: wrap;
 
         li {
             padding-left: 20px;
             padding-right: 20px;
             cursor: pointer;
+            color: $main-green;
             transition: all 0.3s ease-in-out;
+
+            h3 {
+                font-size: 1.5rem;
+            }
+
+            .black {
+                color: $black!important;
+            }
 
             hr {
                 opacity: 0;
@@ -142,7 +148,7 @@ agm-map {
         }
 
         li:hover {
-            color: $main-green;
+            color: $black;
 
             hr {
                 opacity: .7;
@@ -157,36 +163,73 @@ agm-map {
     height: auto;
 
     .flex-container {
-        display:flex;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
         flex-wrap: wrap;
 
         .produkte {
-            width: 50%;
-            height: 170px;
+            width: 30%;
+            height: auto;
             padding: 10px;
-    
+            margin-left: auto;
+            margin-right: 2%;
+            margin-bottom: 2%;
+            border-style: dashed;
+            border-width: thin;
+            border-color: rgba(97, 141, 47, 0.8);
+
             .flex {
-                display:flex;
+                display: flex;
                 width: 100%;
                 height: 100%;
-               // background-color: $gray;
+                // background-color: $gray;
 
                 .bild {
                     background-color: green;
                     width: 250px;
                 }
-    
+
                 .text {
+                    width: 100%;
                     padding-left: 20px;
                     padding-right: 20px;
 
+                    h3 {
+                        font-size: 1.3rem;
+                    }
+
+                    p {
+                        font-size: 1rem;
+                    }
+
                     hr {
                         border-style: dashed;
+                        width: 100%;
                     }
                 }
             }
         }
+
+        .produkte:only-child {
+            margin-left: 10px;
+        }
     }
+}
+
+@media only screen and (max-width: 1100px) {
+
+    .prudukt-container {
+    
+        .flex-container {
+
+            .produkte:only-child {
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+    }
+
 }
 
 
@@ -207,6 +250,26 @@ agm-map {
     #scene {
         overflow: hidden;
         visibility: hidden;
+    }
+
+}
+
+@media only screen and (max-width: 880px) {
+
+    .prudukt-container {
+    
+        .flex-container {
+    
+            .produkte {
+                width: 40%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .produkte:only-child {
+                margin-left: auto;
+            }
+        }
     }
 
 }
@@ -233,6 +296,21 @@ agm-map {
 
                     .icon-container {}
                 }
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .prudukt-container {
+    
+        .flex-container {
+    
+            .produkte {
+                width: 100%;
+                margin-left: 10px;
             }
         }
     }

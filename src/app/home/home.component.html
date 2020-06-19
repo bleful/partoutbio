@@ -36,58 +36,70 @@
     </div>
 </div>
 
-<div class="white light-gray">
-    <div class="container padding-smal">
-        <div class="">
-            <div class="center">
-                <h2 class="text-center">Unser Sortiment</h2>
-                <h1 class="text-center">In Bio-Qualität & Nachhaltig</h1>
+<div class="white padding-smal light-gray">
+    <div class="contact-container center">
+        <div class="flex">
+            <div class="flex-box">
+                <div class="contact-element">
+                    <div class="icon-container center">
+                        <i class="fa fa-phone"></i>
+                    </div>
+                    <h3 class="center">Telefon</h3>
+                    <p class="center">0561-317 487 21</p>
+                </div>
+                <div class="contact-element" (click)="navToGoogleMaps()">
+                    <div class="icon-container center">
+                        <i class="fa fa-home"></i>
+                    </div>
+                    <h3 class="center">Adresse</h3>
+                    <p class="center">Kirchweg 50, Kassel</p>
+                </div>
             </div>
-            <app-show-case-gallery></app-show-case-gallery>
-            <h3 class="center margin-top">Hier findet ihr bald unsere aktuelle Produktliste!</h3>
+            <div class="flex-box">
+                <div class="contact-element">
+                    <div class="icon-container center">
+                        <i class="fa fa-clock-o"></i>
+                    </div>
+                    <h3 class="center">Öffnungszeiten</h3>
+                    <p class="center">Montag bis Freitag: 9:00 - 18.30 </p>
+                    <p class="center">Samstag: 9:00 - 14:30 </p>
+                </div>
+                <div class="contact-element">
+                    <div class="icon-container center">
+                        <i class="fa fa-envelope"></i>
+                    </div>
+                    <h3 class="center">E-Mail</h3>
+                    <p class="center">info@partoutbio.com</p>
+                </div>
+            </div>
         </div>
     </div>
 </div>
 
 <div class="white"
-     *ngIf="false">
+     *ngIf="true">
     <div class="container-white  padding-smal">
         <div class="flex kachel-container">
-            <div class="kachel-first"></div>
-            <div class="kachel"></div>
-            <div class="kachel"></div>
-            <div class="kachel"></div>
-            <div class="kachel"></div>
+            <div *ngFor="let kategorie of products; index as i;" class="kachel" (click)="getCategoryIndex(i)"></div>
         </div>
         <div class="header-container">
-            <ul class="flex">
-                <li>
-                    <h3>Home</h3>
-                    <hr>
-                </li>
-                <li>
-                    <h3>Contact</h3>
-                    <hr>
-                </li>
-                <li>
-                    <h3>Team</h3>
-                    <hr>
-                </li>
-                <li>
-                    <h3>Info</h3>
+            <ul>
+                <li *ngFor="let sub of products[category].subtitel; index as i;" (click)="getSubCategoryIndex(i)">
+                    <h3 *ngIf="subCategory === i" class="black">{{sub.name}}</h3>
+                    <h3 *ngIf="subCategory !== i" >{{sub.name}}</h3>
                     <hr>
                 </li>
             </ul>
         </div>
         <div class="prudukt-container">
             <div class="flex-container">
-                <div class="produkte">
+                <div *ngFor="let inhalt of products[category].subtitel[subCategory].inhalt; index as i;" class="produkte">
                     <div class="flex">
-                        <div class="bild"></div>
+                        <!--<div class="bild"></div>-->
                         <div class="text">
-                            <h3>Test</h3>
-                            <hr>
-                            <p>Test werewrew wer werwe r erw r we r ewrrwerwer we rwe rw er</p>
+                            <h3>{{inhalt.name}}</h3>
+                            <hr *ngIf="inhalt.beschreibung !== ''">
+                            <p>{{inhalt.beschreibung}}</p>
                         </div>
                     </div>
                 </div>
@@ -130,43 +142,16 @@
             </agm-map>
         </div>
     </div>
+</div>
 
+<div class="white light-gray">
     <div class="container padding-smal">
-        <div class="contact-container center">
-            <div class="flex">
-                <div class="flex-box">
-                    <div class="contact-element">
-                        <div class="icon-container center">
-                            <i class="fa fa-phone"></i>
-                        </div>
-                        <h3 class="center">Telefon</h3>
-                        <p class="center">0561-317 487 21</p>
-                    </div>
-                    <div class="contact-element">
-                        <div class="icon-container center">
-                            <i class="fa fa-home"></i>
-                        </div>
-                        <h3 class="center">Adresse</h3>
-                        <p class="center">Kirchweg 50, Kassel</p>
-                    </div>
-                </div>
-                <div class="flex-box">
-                    <div class="contact-element">
-                        <div class="icon-container center">
-                            <i class="fa fa-clock-o"></i>
-                        </div>
-                        <h3 class="center">Öffnungszeiten</h3>
-                        <p class="center">Mai 2020</p>
-                    </div>
-                    <div class="contact-element">
-                        <div class="icon-container center">
-                            <i class="fa fa-envelope"></i>
-                        </div>
-                        <h3 class="center">E-Mail</h3>
-                        <p class="center">info@partoutbio.com</p>
-                    </div>
-                </div>
+        <div class="">
+            <div class="center">
+                <h2 class="text-center">Unser Sortiment</h2>
+                <h1 class="text-center">In Bio-Qualität & Nachhaltig</h1>
             </div>
+            <app-show-case-gallery></app-show-case-gallery>
         </div>
     </div>
 </div>
