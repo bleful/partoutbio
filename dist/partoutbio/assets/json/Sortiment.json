@@ -626,6 +626,15 @@
     "name": "Kaffee",
     "subtitel": [
       {
+        "name": "Bio Getränke",
+        "inhalt": [
+          {
+            "name": "Bio Getränke/Bio Säfte",
+            "beschreibung": "Alle Sorten von LemonAid und ChariTea, Frchtsäfte von Voelkel, Diverse Mix-Getränke"
+          }
+        ]
+      },
+      {
         "name": "Kaffee von Röstrausch",
         "inhalt": [
           {
@@ -712,15 +721,6 @@
           {
             "name": "Bio Kräuteraufstriche",
             "beschreibung": ""
-          }
-        ]
-      },
-      {
-        "name": "Bio Getränke",
-        "inhalt": [
-          {
-            "name": "Bio Getränke/Bio Säfte",
-            "beschreibung": "Alle Sorten von LemonAid und ChariTea, Frchtsäfte von Voelkel, Diverse Mix-Getränke"
           }
         ]
       },

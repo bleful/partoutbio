@@ -64,7 +64,16 @@ export class HomeComponent implements AfterContentInit, OnInit {
     this.httpClient.get('./assets/json/Sortiment.json').subscribe(data => {
       console.log(data);
       this.products = data;
+
+      this.products.forEach(product => {
+        product.subtitel.sort(this.dynamicSort('name'));
+
+        product.subtitel.forEach(unterProduct => {
+          unterProduct.inhalt.sort(this.dynamicSort('name'));
+        });
+      });
     });
+
   }
 
   ngAfterContentInit() {
@@ -79,6 +88,23 @@ export class HomeComponent implements AfterContentInit, OnInit {
   }
 
   ngOnInit() {
+  }
+
+  dynamicSort(property) {
+    let sortOrder = 1;
+
+    if (property[0] === '-') {
+      sortOrder = -1;
+      property = property.substr(1);
+    }
+
+    return function (a, b) {
+      if (sortOrder === -1) {
+        return b[property].localeCompare(a[property]);
+      } else {
+        return a[property].localeCompare(b[property]);
+      }
+    };
   }
 
   handleAnimation(anim: any) {
